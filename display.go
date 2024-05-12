@@ -49,7 +49,7 @@ func (widget *Widget) content() (string, string, bool) {
 		)
 
 		lineOne := fmt.Sprintf(
-			"%s %s %s %s[white]\n",
+			"%s %s %s %s[orange]\n",
 			widget.dayDivider(calEvent, prevEvent),
 			widget.responseIcon(calEvent),
 			timestamp,
@@ -146,7 +146,7 @@ func (widget *Widget) timeUntil(calEvent *CalEvent) string {
 
 	untilStr := ""
 
-	color := "[lightblue]"
+	color := "[orange]"
 	switch {
 	case days > 0:
 		untilStr = fmt.Sprintf("%dd", days)
@@ -155,7 +155,7 @@ func (widget *Widget) timeUntil(calEvent *CalEvent) string {
 	default:
 		untilStr = fmt.Sprintf("%dm", mins)
 		if mins < 30 {
-			color = "[red]"
+			color = "[orange]"
 		}
 	}
 
