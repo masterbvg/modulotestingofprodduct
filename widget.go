@@ -1,4 +1,4 @@
-package gcal
+package modulotestingofprodduct
 
 import (
 	"github.com/rivo/tview"
