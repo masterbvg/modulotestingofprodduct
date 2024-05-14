@@ -1,4 +1,4 @@
-module github.com/masterbvg/modulotestingofprodduct/tree/main
+module github.com/masterbvg/modulotestingofprodduct
 
 go 1.19
 
