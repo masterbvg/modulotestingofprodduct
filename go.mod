@@ -1,5 +1,4 @@
-module github.com/muesli/reflow
+module github.com/masterbvg/modulotestingofprodduct/tree/main
 
-go 1.13
+go 1.19
 
-require github.com/mattn/go-runewidth v0.0.14
