@@ -5,7 +5,7 @@
 * With some changes by me to improve things a bit.
  */
 
-package gcal
+package modulotestingofprodduct
 
 import (
 	"context"
